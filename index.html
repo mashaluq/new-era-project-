@@ -1,161 +1,73 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="NEXT ERA — independent digital lifestyle magazine.">
-  <title>NEXT ERA — Digital Lifestyle Magazine</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NEXT ERA — independent digital lifestyle media."><title>NEXT ERA — Digital Lifestyle Magazine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
 <body>
-  <div class="edition-bar">
-    <span>INDEPENDENT DIGITAL MEDIA</span>
-    <span>ISSUE Nº 01&nbsp; · &nbsp;2026</span>
-  </div>
+<header class="site-header">
+  <div class="topline"><span>INDEPENDENT DIGITAL MEDIA</span><span>ISSUE Nº 01 · 2026</span></div>
+  <div class="brand-row"><a class="brand" href="index.html">NEXT ERA<span class="orbit"></span><span class="brand-star">✦</span></a><span class="brand-note">DIGITAL LIFESTYLE MAGAZINE</span></div>
+  <nav class="nav"><a href="#money">MONEY</a><a href="#career">CAREER</a><a href="#mindset">MINDSET</a><a href="#digital">DIGITAL</a><a href="#business">BUSINESS</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <img src="assets/crowd-blue.jpg" alt="">
+    <div class="hero-overlay"></div>
+    <div class="hero-content"><p class="eyebrow">A NEW GENERATION. A NEW PERSPECTIVE.</p>
+      <h1>NEXT<br>ERA</h1><p class="hero-tagline">THE WORLD IS MOVING.<br>SO ARE WE.</p>
+      <div class="hero-bottom"><span>INDEPENDENT IDEAS · REAL PERSPECTIVES</span><a href="#latest">EXPLORE THE ISSUE ↓</a></div>
+    </div>
+  </section>
+  <section class="intro"><p class="eyebrow">FRESH PERSPECTIVES</p><h2>Ideas for what’s next.</h2><p>Истории, идеи и возможности, которые помогают лучше понимать мир вокруг и находить своё место в нём.</p></section>
+  <section class="stories" id="latest">
+    <div class="section-heading"><span>THE LATEST</span><span>01 — 05</span></div>
+    <div class="story-grid">
+    <article class="story-card">
+      <a class="story-image" href="articles/money.html"><img src="assets/crowd-blue.jpg" alt=""></a>
+      <div class="story-meta">MONEY <span>·</span> 4 MIN READ</div>
+      <h2><a href="articles/money.html">Деньги — это не цифры. Это свобода выбора.</a></h2>
+      <p>Почему финансовая грамотность становится одним из главных навыков нового поколения.</p>
+      <a class="read-link" href="articles/money.html">READ THE STORY <span>↗</span></a>
+    </article>
 
-  <header class="site-header">
-    <a class="logo" href="#home" aria-label="NEXT ERA home">
-      <span class="logo-name">NEXT ERA</span>
-      <span class="orbit" aria-hidden="true"></span>
-      <span class="logo-star" aria-hidden="true">✦</span>
-      <span class="logo-caption">DIGITAL LIFESTYLE MAGAZINE</span>
-    </a>
-    <a class="header-link" href="mailto:hello@nextera.example">JOIN US&nbsp; ↗</a>
-    <nav class="main-nav" aria-label="Разделы">
-      <a href="#money">MONEY</a>
-      <a href="#career">CAREER</a>
-      <a href="#mindset">MINDSET</a>
-      <a href="#digital">DIGITAL</a>
-      <a href="#business">BUSINESS</a>
-    </nav>
-  </header>
+    <article class="story-card">
+      <a class="story-image" href="articles/career.html"><img src="assets/creative-studio.jpg" alt=""></a>
+      <div class="story-meta">CAREER <span>·</span> 5 MIN READ</div>
+      <h2><a href="articles/career.html">Твоя карьера ещё не написана. И это хорошая новость.</a></h2>
+      <p>Почему новое поколение всё чаще отказывается от одной дороги на всю жизнь.</p>
+      <a class="read-link" href="articles/career.html">READ THE STORY <span>↗</span></a>
+    </article>
 
-  <main id="home">
-    <section class="cover">
-      <img class="cover-photo" src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85" alt="Ночной город">
-      <div class="cover-overlay"></div>
-      <div class="cover-copy">
-        <p class="cover-kicker">A NEW GENERATION. A NEW PERSPECTIVE.</p>
-        <h1>NEXT<br>ERA</h1>
-        <p class="cover-slogan">THE WORLD IS MOVING.<br>SO ARE WE.</p>
-        <a class="cover-button" href="#latest">EXPLORE THE ISSUE&nbsp; ↘</a>
-      </div>
-      <div class="cover-number">01 / THE NOW &amp; THE NEXT</div>
-    </section>
+    <article class="story-card">
+      <a class="story-image" href="articles/mindset.html"><img src="assets/think-bigger.jpg" alt=""></a>
+      <div class="story-meta">MINDSET <span>·</span> 3 MIN READ</div>
+      <h2><a href="articles/mindset.html">Перестань ждать идеального момента.</a></h2>
+      <p>Почему первый шаг часто важнее идеального плана.</p>
+      <a class="read-link" href="articles/mindset.html">READ THE STORY <span>↗</span></a>
+    </article>
 
-    <section class="intro">
-      <p class="section-label">A NOTE FROM NEXT ERA</p>
-      <div class="intro-main">
-        <p class="small-label">FRESH PERSPECTIVES FOR WHAT'S NEXT</p>
-        <h2>The world is changing.<br><em>Find your place in it.</em></h2>
-        <p class="intro-text">A visual journal about modern life, new ideas and the opportunities shaping our generation — from money and work to culture, technology and everything in between.</p>
-      </div>
-      <div class="issue-mark">VOL.<br><strong>01</strong><br>2026</div>
-    </section>
+    <article class="story-card">
+      <a class="story-image" href="articles/digital.html"><img src="assets/digital-collage.jpg" alt=""></a>
+      <div class="story-meta">DIGITAL <span>·</span> 5 MIN READ</div>
+      <h2><a href="articles/digital.html">Мы живём в интернете. Но кто управляет нашим вниманием?</a></h2>
+      <p>Как цифровая среда меняет привычки, мышление и повседневную жизнь.</p>
+      <a class="read-link" href="articles/digital.html">READ THE STORY <span>↗</span></a>
+    </article>
 
-    <section class="visual-diary">
-      <div class="section-heading">
-        <div>
-          <p class="small-label">THE VISUAL DIARY / 01</p>
-          <h2>Life, lately.</h2>
-        </div>
-        <p class="heading-note">PLACES, PEOPLE<br>AND NEW PERSPECTIVES.</p>
-      </div>
-
-      <div class="diary-grid">
-        <a class="diary-card diary-large" href="#career">
-          <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1100&q=85" alt="Городская улица">
-          <span class="photo-caption">CITY NOTES&nbsp; / &nbsp;01</span>
-          <span class="photo-title">Somewhere<br>in between.</span>
-        </a>
-        <a class="diary-card diary-small diary-travel" href="#mindset">
-          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=850&q=85" alt="Пейзаж в путешествии">
-          <span class="photo-caption">OUT THERE&nbsp; / &nbsp;02</span>
-          <span class="photo-title">Take the<br>long way.</span>
-        </a>
-        <a class="diary-card diary-small diary-people" href="#business">
-          <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=850&q=85" alt="Люди вместе работают над проектом">
-          <span class="photo-caption">PEOPLE &amp; IDEAS&nbsp; / &nbsp;03</span>
-          <span class="photo-title">Make things<br>happen.</span>
-        </a>
-        <a class="diary-card diary-wide" href="#digital">
-          <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1100&q=85" alt="Музыкальное событие">
-          <span class="photo-caption">CULTURE FILES&nbsp; / &nbsp;04</span>
-          <span class="photo-title">Be where<br>life happens.</span>
-        </a>
-      </div>
-    </section>
-
-    <section class="latest" id="latest">
-      <div class="section-heading latest-heading">
-        <div>
-          <p class="small-label">FRESH PERSPECTIVES</p>
-          <h2>The latest<span>.</span></h2>
-        </div>
-        <p class="heading-note">IDEAS FOR WHAT'S NEXT<br>ISSUE Nº 01</p>
-      </div>
-
-      <div class="story-grid">
-        <article class="story" id="money">
-          <a class="story-image" href="#money"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1000&q=85" alt="Финансы и планирование"></a>
-          <p class="story-category">MONEY&nbsp; · &nbsp;4 MIN READ</p>
-          <h3>Деньги без сложных слов: с чего начать?</h3>
-          <p class="story-summary">Простые финансовые привычки, которые помогают увереннее смотреть вперёд.</p>
-          <a class="read-link" href="mailto:hello@nextera.example">READ THE STORY&nbsp; ↗</a>
-        </article>
-
-        <article class="story story-feature" id="career">
-          <a class="feature-image" href="#career">
-            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=85" alt="Команда обсуждает идеи">
-            <span class="feature-text">
-              <span class="story-category">CAREER&nbsp; · &nbsp;6 MIN READ</span>
-              <strong>Не одна дорога.<br><em>Тысячи возможностей.</em></strong>
-              <span class="read-link">DISCOVER MORE&nbsp; ↗</span>
-            </span>
-          </a>
-        </article>
-
-        <article class="story" id="digital">
-          <a class="story-image" href="#digital"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=85" alt="Современные технологии"></a>
-          <p class="story-category">DIGITAL&nbsp; · &nbsp;5 MIN READ</p>
-          <h3>Как технологии меняют наши завтра</h3>
-          <p class="story-summary">Цифровые идеи, которые уже становятся частью повседневной жизни.</p>
-          <a class="read-link" href="mailto:hello@nextera.example">READ THE STORY&nbsp; ↗</a>
-        </article>
-
-        <article class="story" id="mindset">
-          <a class="story-image" href="#mindset"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85" alt="Светлое пространство для работы"></a>
-          <p class="story-category">MINDSET&nbsp; · &nbsp;3 MIN READ</p>
-          <h3>Искусство начинать с нуля</h3>
-          <p class="story-summary">О любопытстве, практике и маленьких шагах, которые меняют направление.</p>
-          <a class="read-link" href="mailto:hello@nextera.example">READ THE STORY&nbsp; ↗</a>
-        </article>
-
-        <article class="story" id="business">
-          <a class="story-image" href="#business"><img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1000&q=85" alt="Рабочий стол с ноутбуком и заметками"></a>
-          <p class="story-category">BUSINESS&nbsp; · &nbsp;5 MIN READ</p>
-          <h3>Из идеи — в первый проект</h3>
-          <p class="story-summary">Как превратить интерес в собственную инициативу и найти единомышленников.</p>
-          <a class="read-link" href="mailto:hello@nextera.example">READ THE STORY&nbsp; ↗</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="closing">
-      <p class="small-label">A NOTE TO OUR GENERATION</p>
-      <h2>Stay curious.<br><em>Keep moving.</em></h2>
-      <p>THE NEXT ERA IS NOT A PLACE.<br>IT'S A WAY OF LOOKING FORWARD.</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <a class="footer-logo" href="#home">NEXT ERA</a>
-    <p>INDEPENDENT DIGITAL LIFESTYLE MAGAZINE</p>
-    <p>THE WORLD IS MOVING. SO ARE WE.</p>
-    <p>© 2026 NEXT ERA</p>
-  </footer>
-</body>
-</html>
+    <article class="story-card">
+      <a class="story-image" href="articles/business.html"><img src="assets/team-moodboard.jpg" alt=""></a>
+      <div class="story-meta">BUSINESS <span>·</span> 4 MIN READ</div>
+      <h2><a href="articles/business.html">Большие проекты начинаются с маленьких идей.</a></h2>
+      <p>Что на самом деле стоит за созданием собственного проекта.</p>
+      <a class="read-link" href="articles/business.html">READ THE STORY <span>↗</span></a>
+    </article></div>
+  </section>
+  <section class="manifesto">
+    <img src="assets/watch-me.jpg" alt="">
+    <div class="manifesto-copy"><p class="eyebrow">A NOTE TO OUR GENERATION</p><h2>They said impossible.<br><em>I said, watch me.</em></h2><p>Не обязательно знать весь путь. Достаточно начать двигаться.</p></div>
+  </section>
+  <section class="closing"><p class="eyebrow">NEXT ERA</p><h2>The future is not waiting.<br><em>Neither are we.</em></h2></section>
+</main>
+<footer class="footer"><span>NEXT ERA</span><span>THE WORLD IS MOVING. SO ARE WE.</span><a href="#top">BACK TO TOP ↑</a></footer>
+</body></html>
